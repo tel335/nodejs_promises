@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf src && babel src --out-dir dist  --copy-files",
     "start": "node src/index.js",
-    "start:dev": "nodemon --exec babel-node src/index.js"
+    "start:dev": "nodemon --exec babel-node src/index.js",
+    "start:promise": "nodemon --exec babel-node src/promise.js",
+    "start:user_search_promise": "nodemon --exec babel-node src/user_search_promise.js",
+    "start:async_await": "nodemon --exec babel-node src/asyncAwait.js",
+    "start:promise_all": "nodemon --exec babel-node src/promise_all.js"
   },
   "author": "Francisco Cabezas",
   "license": "ISC",
